@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 
 function Header() {
-  // Smooth scrolling for anchor links
   useEffect(() => {
     const handleSmoothScroll = (e) => {
       e.preventDefault();
@@ -35,6 +34,9 @@ function Header() {
             </li>
             <li>
               <a href="#projects" className="hover:underline">Projects</a>
+            </li>
+            <li>
+              <a href="#work-experience" className="hover:underline">Work Experience</a>
             </li>
             <li>
               <a href="#resume-assistant" className="hover:underline">Resume Assistant</a>
