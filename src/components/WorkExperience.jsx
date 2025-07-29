@@ -1,16 +1,11 @@
 function WorkExperience() {
   const experiences = [
     {
-      company: "Tech Innovations",
+      company: "Siemens Technology & Services Pvt. Ltd",
+      location: "Bangalore,India",
       role: "Full-Stack Developer",
-      duration: "2023 - Present",
+      duration: "July 2024 - August 2024",
       description: "Developed and maintained web applications using React and Node.js, integrated AI features with external APIs.",
-    },
-    {
-      company: "Web Solutions Inc.",
-      role: "Junior Developer",
-      duration: "2021 - 2023",
-      description: "Assisted in building responsive websites with JavaScript and collaborated on backend tasks with Express.",
     },
   ];
 
@@ -22,6 +17,7 @@ function WorkExperience() {
           {experiences.map((exp, index) => (
             <div key={index} className="p-4 bg-white rounded shadow-md">
               <h3 className="text-xl font-semibold text-blue-600">{exp.role} @ {exp.company}</h3>
+              <p className="text-gray-500 italic">{exp.location}</p>
               <p className="text-gray-500 italic">{exp.duration}</p>
               <p className="text-gray-700 mt-2">{exp.description}</p>
             </div>

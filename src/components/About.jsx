@@ -11,19 +11,20 @@ function About() {
           <div>
             <h2 className="text-3xl font-bold text-blue-600 mb-6">About Me</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Hi, I'm [Your Name], a passionate developer with a focus on full-stack web development and AI integration. I enjoy building dynamic applications and automating workflows to solve real-world problems.
+              Hi, I'm Vrusha Naik, a passionate developer with a focus on full-stack web development and AI integration. I enjoy building dynamic applications and automating workflows to solve real-world problems.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              My skills include JavaScript, React, Node.js, and experience with AI APIs. I hold a degree in Computer Science from [Your University] and have worked on projects that blend creativity with technology.
+              My skills include JavaScript, React, Node.js, and experience with APIs. I hold a B.E. degree in Computer Engineering with Honours in Artificial Intelligence & Machine Learning from Goa College of Engineering and have worked on projects that blend creativity with technology.
             </p>
             <div className="mt-6">
               <h3 className="text-xl font-semibold text-blue-600 mb-2">Skills</h3>
               <ul className="list-disc list-inside text-gray-700">
+                <li>C</li>
+                <li>C++</li>
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Node.js</li>
-                <li>Express</li>
-                <li>AI APIs</li>
+                <li>Python</li>
               </ul>
             </div>
           </div>
